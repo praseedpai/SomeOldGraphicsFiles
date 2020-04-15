@@ -1,0 +1,16 @@
+#!/bin/sh
+user=$1;
+if [ -z "$user" ]; then
+  echo "usage: test <username>";
+else
+  echo "copying $user files...";
+  cp homoclip_flat/softgl_homoclip_flat.cpp.$user softgl_homoclip_flat.cpp;
+  cp homoclip_smooth/softgl_homoclip_smooth.cpp.$user softgl_homoclip_smooth.cpp;
+  cp homoclip_smooth_tex/softgl_homoclip_smooth_tex.cpp.$user softgl_homoclip_smooth_tex.cpp;
+  cp trirast_flat/softgl_trirast_flat.cpp.$user softgl_trirast_flat.cpp;
+  cp trirast_smooth/softgl_trirast_smooth.cpp.$user softgl_trirast_smooth.cpp;
+  cp trirast_smooth_pc/softgl_trirast_smooth_pc.cpp.$user softgl_trirast_smooth_pc.cpp;
+  cp trirast_smooth_tex/softgl_trirast_smooth_tex.cpp.$user softgl_trirast_smooth_tex.cpp;
+  cp trirast_smooth_tex_pc/softgl_trirast_smooth_tex_pc.cpp.$user softgl_trirast_smooth_tex_pc.cpp;
+  cp lighting/softgl_lighting.cpp.$user softgl_lighting.cpp;
+fi

@@ -1,0 +1,82 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SoftGLView - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/SoftGLView.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\PAIDESPER\SoftGLView\SoftGLView.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC.tmp" 
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SoftGLView.pdb" /debug /machine:I386 /out:"Debug/SoftGLView.exe" /pdbtype:sept 
+.\Debug\mat16fv.obj
+.\Debug\softgl.obj
+.\Debug\softgl_clipdrawtri_flat.obj
+.\Debug\softgl_clipdrawtri_smooth.obj
+.\Debug\softgl_clipdrawtri_smooth_tex.obj
+.\Debug\softgl_homoclip_flat.obj
+.\Debug\softgl_homoclip_smooth.obj
+.\Debug\softgl_homoclip_smooth_tex.obj
+.\Debug\softgl_lighting.obj
+.\Debug\softgl_lighting_state.obj
+.\Debug\softgl_material_state.obj
+.\Debug\softgl_matrixstack.obj
+.\Debug\softgl_texture_state.obj
+.\Debug\softgl_trirast_flat.obj
+.\Debug\softgl_trirast_smooth.obj
+.\Debug\softgl_trirast_smooth_pc.obj
+.\Debug\softgl_trirast_smooth_tex.obj
+.\Debug\softgl_trirast_smooth_tex_pc.obj
+.\Debug\SoftGLView.obj
+.\Debug\StdAfx.obj
+.\Debug\trimodel.obj
+.\Debug\vec3fv.obj
+.\Debug\SoftGLView.res
+]
+Creating command line "link.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD.tmp"
+<h3>Output Window</h3>
+Compiling...
+SoftGLView.cpp
+Linking...
+Creating temporary file "D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE.tmp" with contents
+[
+/nologo /o"Debug/SoftGLView.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\mat16fv.sbr
+.\Debug\softgl.sbr
+.\Debug\softgl_clipdrawtri_flat.sbr
+.\Debug\softgl_clipdrawtri_smooth.sbr
+.\Debug\softgl_clipdrawtri_smooth_tex.sbr
+.\Debug\softgl_homoclip_flat.sbr
+.\Debug\softgl_homoclip_smooth.sbr
+.\Debug\softgl_homoclip_smooth_tex.sbr
+.\Debug\softgl_lighting.sbr
+.\Debug\softgl_lighting_state.sbr
+.\Debug\softgl_material_state.sbr
+.\Debug\softgl_matrixstack.sbr
+.\Debug\softgl_texture_state.sbr
+.\Debug\softgl_trirast_flat.sbr
+.\Debug\softgl_trirast_smooth.sbr
+.\Debug\softgl_trirast_smooth_pc.sbr
+.\Debug\softgl_trirast_smooth_tex.sbr
+.\Debug\softgl_trirast_smooth_tex_pc.sbr
+.\Debug\SoftGLView.sbr
+.\Debug\trimodel.sbr
+.\Debug\vec3fv.sbr]
+Creating command line "bscmake.exe @D:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SoftGLView.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

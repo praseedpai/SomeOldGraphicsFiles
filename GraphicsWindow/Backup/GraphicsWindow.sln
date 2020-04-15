@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphicsWindow", "GraphicsWindow.csproj", "{FCAAA0A7-80B7-4B39-A31F-25627B53F0CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{FCAAA0A7-80B7-4B39-A31F-25627B53F0CC}.Debug.ActiveCfg = Debug|.NET
+		{FCAAA0A7-80B7-4B39-A31F-25627B53F0CC}.Debug.Build.0 = Debug|.NET
+		{FCAAA0A7-80B7-4B39-A31F-25627B53F0CC}.Release.ActiveCfg = Release|.NET
+		{FCAAA0A7-80B7-4B39-A31F-25627B53F0CC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

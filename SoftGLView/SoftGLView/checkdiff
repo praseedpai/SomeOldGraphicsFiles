@@ -1,0 +1,16 @@
+#!/bin/sh
+user=$1;
+if [ -z "$user" ]; then
+  echo "usage: difftest <username>";
+else
+  echo "comparing $user files...";
+  diff -rq homoclip_flat/softgl_homoclip_flat.cpp.$user softgl_homoclip_flat.cpp;
+  diff -rq homoclip_smooth/softgl_homoclip_smooth.cpp.$user softgl_homoclip_smooth.cpp;
+  diff -rq homoclip_smooth_tex/softgl_homoclip_smooth_tex.cpp.$user softgl_homoclip_smooth_tex.cpp;
+  diff -rq trirast_flat/softgl_trirast_flat.cpp.$user softgl_trirast_flat.cpp;
+  diff -rq trirast_smooth/softgl_trirast_smooth.cpp.$user softgl_trirast_smooth.cpp;
+  diff -rq trirast_smooth_pc/softgl_trirast_smooth_pc.cpp.$user softgl_trirast_smooth_pc.cpp;
+  diff -rq trirast_smooth_tex/softgl_trirast_smooth_tex.cpp.$user softgl_trirast_smooth_tex.cpp;
+  diff -rq trirast_smooth_tex_pc/softgl_trirast_smooth_tex_pc.cpp.$user softgl_trirast_smooth_tex_pc.cpp;
+  diff -rq lighting/softgl_lighting.cpp.$user softgl_lighting.cpp;
+fi
